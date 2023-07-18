@@ -56,7 +56,7 @@ theme = "pgdpie_theme"
 
   [[params.intro.item]]
     title = "Olá! Designer?"
-    description = "Amplie a sua experiencia em Design para educação, de modo a integrar equipas multidisplinares na área"
+    description = "Amplie a sua experiência em design para educação, de modo a integrar equipas multidisplinares na área"
     # url = "#about"
     # button = "Know More"
     icon = "icon-bulb"
@@ -88,18 +88,18 @@ theme = "pgdpie_theme"
   # Services section
   [params.services]
     enable = true
-    title = "About the Course"
-    description = "Our course embraces an expansive and inclusive view of interactive products, encompassing a wide range of mediums, from apps to toys, and from digital to tangible experiences. The curriculum places emphasis on a final project, evaluated through the CU that takes the same name as the full course, which is integrated from the course's inception. Throughout the program, this project is formulated, developed, and guided across various Curricular Units, addressing relevant themes and tools. Notably, Fablab Benfica, as an indispensable prototyping space, will serve as a vital resource throughout the course."
-    subtitle = "Course structure"
-    description2 = "The Postgraduate Course in Design of Interactive Products for Education has a total of 60 ECTS and a duration of 2 semesters, which aims at the deepening of skills in design and prototyping for the educational area, serving professionals both in the field of education and design wishing to develop products or projects within their institution or even embrace new opportunities in the area of interactive products for education."
+    title = "Sobre o Curso:"
+    description = "A PGDPIE assenta num plano de estudos que privilegia uma definição abrangente e inclusiva do que pode ser um produto interativo. Assim, da app ao brinquedo, do digital ao tangível, todas as abordagens terão lugar neste curso. Assim, o curso prevê a realização de um projeto final, avaliado através da UC de Projeto de Produtos Interativos para Educação, no entanto, formulado desenvolvido acompanhado nas diferentes UC’s de acordo com as temáticas e ferramentas que privilegiarão. Por fim, a interação com o Fablab Benfica, enquanto espaço de prototipagem será uma constante ao longo do curso."
+    subtitle = "Plano de Estudos:"
+    description2 = "A Pós-graduação em Design de Produtos Interativos para Educação é um curso, com um total de 60 ECTS e a duração de 2 semestres, que visa o aprofundamento de competências em design e prototipagem para a área educativa, servindo profissionais tanto da área da educação como da área do design, que pretendam desenvolver produtos ou projetos dentro da sua instituição ou mesmo abraçar novas oportunidades na área dos produtos interativos para educação."
   
-    subtitle3 = "Objectives"
+    subtitle3 = "Objetivos"
     description3 = ""
-    subtitle4 = "Course structure"
-    description4 = "The Postgraduate Course in Design of Interactive Products for Education has a total of 60 ECTS and a duration of 2 semesters, which aims at the deepening of skills in design and prototyping for the educational area, serving professionals both in the field of education and design wishing to develop products or projects within their institution or even embrace new opportunities in the area of interactive products for education."
+    subtitle4 = "Plano de Estudos:"
+    description4 = "A Pós-graduação em Design de Produtos Interativos para Educação é um curso, com um total de 60 ECTS e a duração de 2 semestres, que visa o aprofundamento de competências em design e prototipagem para a área educativa, servindo profissionais tanto da área da educação como da área do design, que pretendam desenvolver produtos ou projetos dentro da sua instituição ou mesmo abraçar novas oportunidades na área dos produtos interativos para educação."
 
     [[params.services.item]]
-      title = "Objectives"
+      title = "Objectivos"
       description = ""
       icon = "icon-anchor"
 
@@ -258,7 +258,7 @@ theme = "pgdpie_theme"
   # Counters section
   [params.counters]
     enable = true
-    title = "PGDIPE in Numbers"
+    title = "A PGDPIE em números"
     background = "full_image_1.jpg"
 
     [[params.counters.item]]
@@ -372,7 +372,7 @@ theme = "pgdpie_theme"
     enable = true
     map = false
     form = true
-    title = "Get in touch"
+    title = "Contactos"
     description = ""
     
     # Available icons: http://simplelineicons.com/
@@ -380,21 +380,22 @@ theme = "pgdpie_theme"
         ["icon-home", "Campus de Benfica do IPL, 1549-003 Lisboa"],
         ["icon-phone", "+351 217 100 000"],
         ["icon-envelope", ""],
-        ["icon-globe", '<a href="http://fabschools.pt" target="_blank">PGDIPE is part of fabschools@ESELx/IPL</a>']
+        ["icon-globe", '<a href="http://fabschools.pt" target="_blank">PGDIPE é uma iniciativa fabschools na ESELx/IPL</a>']
       ]
 
-    name = "Name"
+    name = "Nome"
     email = "Email"
-    phone = "Phone"
-    message = "Message"
-    button = "Send message"
+    phone = "Telefone"
+    message = "Mensagem"
+    button = "Enviar mensagem"
 
   # Footer section
   [params.footer]
     enable = true
     copyright = 'cc-by PGDPIE coordination team at ESELx-IPL'
     links = [
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
+        ["icon-twitter", "https://twitter.com/BenficaFab"],
+        ["icon-facebook", "https://www.facebook.com/FabLabBenfica"],
+        ["icon-instagram", "https://www.instagram.com/fablab_benfica/"],
+        ["icon-youtube", "https://www.youtube.com/channel/UCkjaSC1Vzg8OtVQWADQhCvg"]
       ]
